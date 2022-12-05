@@ -11,3 +11,4 @@ Personal MEAN Stack project to test and train
     1. index.html is the file that is served to the browser
     2. main.ts import app.module.ts and then serves it to platformBrowserDynamic().bootstrapModule(AppModule)
         to be able to boostrap all our declaired modules
+    3. @ is the initializer of a "Decorator" ex @Component    
