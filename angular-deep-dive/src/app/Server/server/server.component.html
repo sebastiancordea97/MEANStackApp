@@ -3,3 +3,10 @@
 <div>{{serverCreationStatus}}</div>
 
 <button (click)="onCeateServer()">add Server</button>
+
+<input 
+    class="form-control"
+    [(ngModel)]="serverName"
+>
+
+<p>{{serverName}}</p>
