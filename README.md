@@ -29,3 +29,7 @@ Personal MEAN Stack project to test and train
         This is done by adding the FormsModule  to the imports[]  array in the AppModule.
         You then also need to add the import from @angular/forms  in the app.module.ts file:
         import { FormsModule } from '@angular/forms'; 
+    6. Directives
+        Instrunctions in the DOM
+        *ngIf ( * is to tell Ng that we have a structural directive, it changes the structure of the DOM )
+        ngClass ( attribute directive, only changes the element in which is declaired )
